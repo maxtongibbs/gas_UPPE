@@ -92,7 +92,7 @@ end
 
 s = 0.065;
 a_AP = 1.075*gas.core_radius; % area-preserving core radius
-a_c = a_AP./(1+s*gas_wavelength.^2/a_AP/gas.t_tube;
+a_c = a_AP./(1+s*gas_wavelength.^2/a_AP/gas.t_tube);
 
 % the below simplest ki removes all the loss
 ki = complex(unm./a_c);
